@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "SFProText";
+}
+
+.container {
+  height: 100vh;
+  padding-inline: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  text-align: center;
+}
+
+.item-image {
+  width: 100%;
+}
+
+.item-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.title {
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-inline: 30px;
+  }
+}
